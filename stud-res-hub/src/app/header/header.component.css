@@ -1,0 +1,12 @@
+.header {
+    width: auto;
+    background-color: #000000; 
+    padding: 15px 20px;
+    text-align: left; /* Align text to the left */
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+.header h1 {
+    color: aliceblue;
+}
