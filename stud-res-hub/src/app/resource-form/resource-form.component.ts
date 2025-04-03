@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-resource-form',
+  selector: 'app-add-resource-form',
   imports: [],
-  templateUrl: './resource-form.component.html',
-  styleUrl: './resource-form.component.css'
+  templateUrl: './add-resource-form.component.html',
+  styleUrl: './add-resource-form.component.css'
 })
-export class ResourceFormComponent {
+export class AddResourceFormComponent {
 
 }

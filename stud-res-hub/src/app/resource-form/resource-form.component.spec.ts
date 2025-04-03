@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResourceFormComponent } from './resource-form.component';
+import { AddResourceFormComponent } from './resource-form.component';
 
 describe('ResourceFormComponent', () => {
-  let component: ResourceFormComponent;
-  let fixture: ComponentFixture<ResourceFormComponent>;
+  let component: AddResourceFormComponent;
+  let fixture: ComponentFixture<AddResourceFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ResourceFormComponent]
+      imports: [AddResourceFormComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ResourceFormComponent);
+    fixture = TestBed.createComponent(AddResourceFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

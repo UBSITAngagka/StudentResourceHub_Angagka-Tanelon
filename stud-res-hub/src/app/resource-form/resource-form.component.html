@@ -1,1 +1,36 @@
-<p>resource-form works!</p>
+<form action="submit-resource" method="POST">
+    <div>
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+    </div>
+  
+    <div>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+    </div>
+  
+    <div>
+      <label for="url">URL:</label>
+      <input type="text" id="url" name="url">
+    </div>
+  
+    <div>
+      <label for="category">Category:</label>
+      <select id="category" name="category" required>
+        <option value="self-improvement">Self-Improvement</option>
+        <option value="technology">Technology</option>
+        <option value="education">Education</option>
+        <option value="health">Health</option>
+      </select>
+    </div>
+  
+    <div>
+      <label for="author">Author:</label>
+      <input type="text" id="author" name="author">
+    </div>
+  
+    <div>
+      <button type="submit">Submit</button>
+      <button type="reset">Cancel</button>
+    </div>
+  </form>
