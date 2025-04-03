@@ -1,0 +1,7 @@
+footer {
+    width: 100%; /* Ensures the footer spans the full width */
+    position: fixed; /* Keeps the footer at the bottom */
+    bottom: 0;
+    left: 0;
+  }
+  
